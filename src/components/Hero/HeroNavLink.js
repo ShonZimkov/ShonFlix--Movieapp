@@ -14,7 +14,7 @@ const HeroNavLink = ({btnText}) => {
             setactiveLink(btnText);
             sethiddenMenu(true)}} 
             css={styles} 
-            style={{color:activeLink === btnText ? "#f9a5ff" : "#fff" }}
+            style={{color:activeLink === btnText ? "red" : "#fff" }}
             >
             {btnText}
         </button>

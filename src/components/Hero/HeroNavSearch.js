@@ -34,9 +34,9 @@ const styles = css`
     background: transparent;
     padding: 10px 16px;
     width: 260px;
-    color: #f9a5ff;
+    color: red;
     &::placeholder {
-      color: #f9a5ff;
+      color: red;
       letter-spacing: 1px;
     }
   }

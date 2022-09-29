@@ -16,7 +16,7 @@ const MoviesPagination = () => {
                 <button 
                 style={{
                     cursor:currentpage !== 1 ? "pointer" : "not-allowed",
-                    background: currentpage !== 1 ? "#32de57" : "#303847"
+                    background: currentpage !== 1 ? "red" : "#303847"
                     }}
                 onClick={()=>newPage("previous")}>Prev Page</button>
                 <button onClick={()=>newPage("next")}>Next Page</button>
@@ -38,7 +38,7 @@ const styles = css`
             button{
                 border: none;
                 outline: none;
-                background: #32de57;
+                background: red;
                 color: #fff;
                 font-size: 20px;
                 font-weight: 600;
@@ -50,7 +50,7 @@ const styles = css`
                 margin: 0 10px;
                 transition: background 500ms ease-in-out;
                 &:hover{
-                    background: #259a3e;
+                    background: lightgray;
                 }
             }
         }

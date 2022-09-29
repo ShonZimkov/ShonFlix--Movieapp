@@ -17,7 +17,7 @@ const Hero = () => {
 const styles = css`
     width: 100%;
     min-height: 100vh;
-    background: #1b1c22;
+    background: gray;
 `
 
 export default Hero;  
